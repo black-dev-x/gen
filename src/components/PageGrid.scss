@@ -1,3 +1,7 @@
+@import '../theme/colors.scss';
+
 .page-grid {
   display: grid;
+  background-color: $background;
+  min-height: 100vh;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
 
-const Contato = () => <header className='contato'>Contato</header>
+const Contato = () => <section className='contato'>Contato</section>
 
 export default Contato

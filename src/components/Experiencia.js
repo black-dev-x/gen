@@ -1,5 +1,5 @@
 import React from 'react'
 
-const Experiencia = () => <header className='experiencia'>Experiencia</header>
+const Experiencia = () => <section className='experiencia'>Experiencia</section>
 
 export default Experiencia

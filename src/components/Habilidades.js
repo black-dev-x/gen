@@ -1,5 +1,5 @@
 import React from 'react'
 
-const Habilidades = () => <header className='habilidades'>Habilidades</header>
+const Habilidades = () => <section className='habilidades'>Habilidades</section>
 
 export default Habilidades
