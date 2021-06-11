@@ -1,7 +1,35 @@
-@import '../theme/colors.scss';
+@import '../theme/variables.scss';
 
 .page-grid {
   display: grid;
   background-color: $background;
   min-height: 100vh;
+  color: $primary-text;
+  gap: $default-spacing;
+  padding: $default-spacing;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 100px 3fr 2fr 1fr 100px;
+  section,
+  footer {
+    border-radius: $card-border-radius;
+    background-color: $card;
+    padding: $default-spacing;
+  }
+  .contato {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .educacao {
+  }
+  .experiencia {
+    grid-column: 1/2;
+    grid-row: 2/5;
+  }
+  .habilidades {
+  }
+  .ingles {
+  }
+  .rodape {
+    grid-column: 1/3;
+  }
 }

@@ -1,3 +1,25 @@
+@import '../theme/variables.scss';
+
 .contato {
-  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  .info {
+    h1 {
+      font-size: 2.5em;
+    }
+    h2 {
+      font-size: 1.2em;
+      color: $secondary-text;
+    }
+  }
+  .adicionais {
+    color: $secondary-text;
+    .a {
+      color: $secondary-text;
+      text-decoration: none;
+      :visited {
+        color: $secondary-text;
+      }
+    }
+  }
 }
