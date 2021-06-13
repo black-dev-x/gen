@@ -6,6 +6,7 @@ import Ingles from './Ingles'
 import Contato from './Contato'
 import Rodape from './Rodape'
 import './PageGrid.scss'
+import Curiosidades from './Curiosidades'
 
 const PageGrid = () => (
   <div className='page-grid'>
@@ -14,6 +15,7 @@ const PageGrid = () => (
     <Habilidades></Habilidades>
     <Educacao></Educacao>
     <Ingles></Ingles>
+    <Curiosidades></Curiosidades>
     <Rodape></Rodape>
   </div>
 )
